@@ -5,17 +5,21 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private BoxCollider2D coll;
     private float dirX;
     private SpriteRenderer sprite;
     private Animator anim;
     public float moveSpeed;
     public float jumpForce;
-    
+    public LayerMask jumpableGround;
+    private enum MovementState { Idle,Run,Jump,Fall}
+ 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        coll = GetComponent<BoxCollider2D>();
         sprite = GetComponent<SpriteRenderer>();
     }
 
@@ -24,7 +28,7 @@ public class Movement : MonoBehaviour
     {
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX*moveSpeed,rb.velocity.y);
-        if(Input.GetButtonDown("Jump"))
+        if(Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x,jumpForce) ;
             
@@ -32,17 +36,31 @@ public class Movement : MonoBehaviour
         UpdateAnimationUpdate();
         void UpdateAnimationUpdate()
         {
+            MovementState state;
             if(dirX > 0f){
-                anim.SetBool("Run",true);
                 sprite.flipX = false;
-        }
+                state = MovementState.Run;
+            }
             else if(dirX < 0f){
-                anim.SetBool("Run",true);
+                state = MovementState.Run;
                 sprite.flipX = true;
         }
             else{
-                anim.SetBool("Run",false);
+                state = MovementState.Idle;
+            }
+            if(rb.velocity.y > .1f)
+            {
+                state = MovementState.Jump;
+            }
+            else if(rb.velocity.y < -.1f)
+            {
+                state = MovementState.Fall;
+            }
+            anim.SetInteger("state", (int)state);
         }
+        bool IsGrounded()
+        {
+            return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
         }
 
     }
