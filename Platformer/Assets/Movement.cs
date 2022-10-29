@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour
     public float moveSpeed;
     public float jumpForce;
     public LayerMask jumpableGround;
-    private enum MovementState { Idle,Run,Jump,Fall}
+    private enum MovementState { Idle,Run,Jump,Fall,DoubleJump,Hit}
  
     // Start is called before the first frame update
     void Start()
@@ -30,7 +30,7 @@ public class Movement : MonoBehaviour
         rb.velocity = new Vector2(dirX*moveSpeed,rb.velocity.y);
         if(Input.GetButtonDown("Jump") && IsGrounded())
         {
-            rb.velocity = new Vector2(rb.velocity.x,jumpForce) ;
+            rb.velocity = new Vector2(rb.velocity.x,jumpForce);
             
         }
         UpdateAnimationUpdate();
