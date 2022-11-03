@@ -479,7 +479,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -510,6 +510,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3559,13 +3583,13 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Terrain (16x16)_128: 1437503401646794464
-      Terrain (16x16)_99: -4531858634233595940
       Terrain (16x16)_136: -8219376919472097953
+      Terrain (16x16)_0: -4874278423985981231
       Terrain (16x16)_89: 7816257180041521445
-      Terrain (16x16)_119: -4745629342412378363
-      Terrain (16x16)_131: -3935483887006374238
+      Terrain (16x16)_74: -1652666043038260038
+      Terrain (16x16)_53: 510484679990689147
       Terrain (16x16)_85: -8908544382962373700
-      Terrain (16x16)_139: 8028931387866111178
+      Terrain (16x16)_102: -6233458931719022677
       Terrain (16x16)_4: 4716054802376701170
       Terrain (16x16)_80: -9178860142635623461
       Terrain (16x16)_33: 611065533247025525
@@ -3574,13 +3598,11 @@ TextureImporter:
       Terrain (16x16)_120: -796906297672391504
       Terrain (16x16)_121: 517537040645658821
       Terrain (16x16)_125: -8554552240816166350
-      Terrain (16x16)_143: 4320056378629417345
       Terrain (16x16)_64: 611278257802682203
       Terrain (16x16)_27: -3271834841568197018
       Terrain (16x16)_75: -3581127029532586042
       Terrain (16x16)_132: 9178892520020476994
       Terrain (16x16)_44: -6530495296205248430
-      Terrain (16x16)_141: -2580880771318319752
       Terrain (16x16)_37: 1918823624152674874
       Terrain (16x16)_21: -2572975058836569894
       Terrain (16x16)_23: 8704577166008928185
@@ -3593,9 +3615,9 @@ TextureImporter:
       Terrain (16x16)_94: 146925484895311433
       Terrain (16x16)_16: 8102182086558406705
       Terrain (16x16)_62: 5344191953466923600
+      Terrain (16x16)_87: -701145450088738326
       Terrain (16x16)_42: 5620700161029325194
       Terrain (16x16)_59: 6999343348047764492
-      Terrain (16x16)_87: -701145450088738326
       Terrain (16x16)_113: 3768474000973419263
       Terrain (16x16)_41: 6882983052497979040
       Terrain (16x16)_58: -39983623799505075
@@ -3685,23 +3707,25 @@ TextureImporter:
       Terrain (16x16)_65: 8568688612705805593
       Terrain (16x16)_129: -8608529027667364052
       Terrain (16x16)_79: -7056944154279210060
-      Terrain (16x16)_2: 8471289998749917440
-      Terrain (16x16)_43: 4373040517201769238
-      Terrain (16x16)_106: 1686551188809007541
-      Terrain (16x16)_3: 397718093594370940
-      Terrain (16x16)_6: -7517053698926566003
-      Terrain (16x16)_10: 5587568460378422633
-      Terrain (16x16)_86: 2534797647697017659
-      Terrain (16x16)_110: -4356087948441045522
-      Terrain (16x16)_126: 5155531445672774593
       Terrain (16x16)_107: -5930776587842900371
+      Terrain (16x16)_141: -2580880771318319752
+      Terrain (16x16)_143: 4320056378629417345
+      Terrain (16x16)_2: 8471289998749917440
+      Terrain (16x16)_3: 397718093594370940
+      Terrain (16x16)_106: 1686551188809007541
+      Terrain (16x16)_43: 4373040517201769238
+      Terrain (16x16)_10: 5587568460378422633
+      Terrain (16x16)_6: -7517053698926566003
+      Terrain (16x16)_110: -4356087948441045522
       Terrain (16x16)_90: 4218957088357342075
+      Terrain (16x16)_126: 5155531445672774593
+      Terrain (16x16)_86: 2534797647697017659
       Terrain (16x16)_40: -1385159882611531606
-      Terrain (16x16)_53: 510484679990689147
-      Terrain (16x16)_0: -4874278423985981231
+      Terrain (16x16)_99: -4531858634233595940
+      Terrain (16x16)_131: -3935483887006374238
       Terrain (16x16)_91: -1647121858502193189
-      Terrain (16x16)_74: -1652666043038260038
-      Terrain (16x16)_102: -6233458931719022677
+      Terrain (16x16)_119: -4745629342412378363
+      Terrain (16x16)_139: 8028931387866111178
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
