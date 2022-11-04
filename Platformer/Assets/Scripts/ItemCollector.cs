@@ -7,10 +7,13 @@ public class ItemCollector : MonoBehaviour
 {
     [SerializeField] private Text coinText;
     private int coin = 0;
+    [SerializeField] private AudioSource collect;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Coin"))
         {
+            collect.Play();
             Destroy(collision.gameObject);
             coin++;
             coinText.text = "Coin: " + coin;
