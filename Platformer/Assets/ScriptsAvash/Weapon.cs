@@ -24,7 +24,7 @@ public class Weapon : MonoBehaviour
     {
         gunRotationZ = transform.rotation.z;
         gunrb = this.GetComponent<Rigidbody2D>();
-        BulletText.GetComponent<Text>().text = "20";
+        bulletChangingText();
     }
 
     // Update is called once per frame
