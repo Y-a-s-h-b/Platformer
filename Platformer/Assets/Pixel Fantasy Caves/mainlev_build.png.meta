@@ -3,7 +3,11 @@ guid: a2148cb95fda2a246b72a3834f9dc4a3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
+<<<<<<< Updated upstream
   serializedVersion: 12
+=======
+  serializedVersion: 10
+>>>>>>> Stashed changes
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,8 +27,11 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+<<<<<<< Updated upstream
   vTOnly: 0
   ignoreMasterTextureLimit: 0
+=======
+>>>>>>> Stashed changes
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -33,9 +40,15 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< Updated upstream
     filterMode: 1
     aniso: 1
     mipBias: 0
+=======
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+>>>>>>> Stashed changes
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -56,6 +69,7 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+<<<<<<< Updated upstream
   flipbookRows: 1
   flipbookColumns: 1
   maxTextureSizeSet: 0
@@ -64,6 +78,11 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 1
   cookieLightType: 1
+=======
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+>>>>>>> Stashed changes
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -77,6 +96,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Updated upstream
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -113,6 +133,8 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -120,13 +142,20 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
+<<<<<<< Updated upstream
     internalID: 1537655665
+=======
+    internalID: 0
+>>>>>>> Stashed changes
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< Updated upstream
     nameFileIdTable: {}
+=======
+>>>>>>> Stashed changes
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,13 +1,9 @@
 fileFormatVersion: 2
-guid: 38dfa8c3b7cb9c34e8728c80c179319a
+guid: e385843ea96fbe14d989d165b727e0de
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-<<<<<<< Updated upstream
   serializedVersion: 12
-=======
-  serializedVersion: 10
->>>>>>> Stashed changes
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -27,11 +23,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-<<<<<<< Updated upstream
   vTOnly: 0
   ignoreMasterTextureLimit: 0
-=======
->>>>>>> Stashed changes
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -40,26 +33,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< Updated upstream
     filterMode: 1
     aniso: 1
     mipBias: 0
-=======
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
->>>>>>> Stashed changes
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< Updated upstream
-  spriteMode: 2
-=======
   spriteMode: 1
->>>>>>> Stashed changes
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,20 +56,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-<<<<<<< Updated upstream
   flipbookRows: 1
   flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
-  cookieLightType: 1
-=======
-  maxTextureSizeSet: 0
-  compressionQualitySet: 0
-  textureFormatSet: 0
->>>>>>> Stashed changes
+  applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -100,7 +77,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< Updated upstream
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -125,47 +101,9 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  spriteSheet:
-    serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: background1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 960
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1bbde659c253dc489c53c0df541bf8b
-      internalID: 1859134353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-=======
   spriteSheet:
     serializedVersion: 2
     sprites: []
->>>>>>> Stashed changes
     outline: []
     physicsShape: []
     bones: []
@@ -176,11 +114,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< Updated upstream
-    nameFileIdTable:
-      background1_0: 1859134353
-=======
->>>>>>> Stashed changes
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
