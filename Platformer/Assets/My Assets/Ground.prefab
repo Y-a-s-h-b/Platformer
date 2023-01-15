@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7624641318334776968}
   - component: {fileID: 8529507421084039666}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1756658722777789287
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3780118878965186147}
   - component: {fileID: 3654242903328484981}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2773929885598141570
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3965906358513986304}
   - component: {fileID: 5641735744342270803}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,7 +249,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2821648476550459676
@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5774821570725133506}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6330692554388481731}
   - component: {fileID: 8946005814145666761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SRGround 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +373,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1.9375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &6089081578937670292
@@ -386,7 +386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6731902975730780499}
   - component: {fileID: 620708252213569952}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -457,7 +457,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &6373726913117330472
@@ -470,7 +470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8042841509178650497}
   - component: {fileID: 1974476520272442743}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SLGround 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +541,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &6571490498934377326
@@ -554,7 +554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4628660635913925917}
   - component: {fileID: 5978728304115501437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -625,7 +625,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 2.0625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &7317321437635660773
@@ -638,7 +638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3629223918679067643}
   - component: {fileID: 8427405267170166248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -709,7 +709,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 2.0625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &8165876110235803788
@@ -722,7 +722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7716399656590221397}
   - component: {fileID: 6130447678153987008}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -793,6 +793,6 @@ SpriteRenderer:
   m_Size: {x: 2, y: 2.0625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

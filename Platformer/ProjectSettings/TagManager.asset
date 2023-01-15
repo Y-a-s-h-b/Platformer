@@ -6,15 +6,16 @@ TagManager:
   tags:
   - Coin
   - Trap
+  - Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
   - Ground
-  - 
+  - Wall
   - 
   - 
   - 
@@ -49,6 +50,6 @@ TagManager:
   - name: Ground
     uniqueID: 1264382011
     locked: 0
-  - name: Dirt
-    uniqueID: 693593261
+  - name: Wall
+    uniqueID: 3711446223
     locked: 0
