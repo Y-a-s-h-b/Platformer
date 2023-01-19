@@ -18,6 +18,7 @@ public class Weapon : MonoBehaviour
     [SerializeField]private float maxSpeed;
     [SerializeField]private int bulletCapacity;
     public GameObject BulletText;
+    public Transform GunHolderTransform;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +37,7 @@ public class Weapon : MonoBehaviour
             playerRb.velocity = Vector3.ClampMagnitude(playerRb.velocity, maxSpeed);
         }
 
-        this.transform.position = playerCharacter.position;
+        this.transform.position = GunHolderTransform.position;
         if (Input.GetButtonDown("Fire1") && bulletCapacity>0)
         {
             fire();
